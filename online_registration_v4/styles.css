@@ -175,6 +175,11 @@ label[class="newsletter-format"] {
     h1 {
         margin-bottom: 40px;
     }
+
+    legend {
+        padding-top: 45px;
+    }
+    
     .same-line {
         display: flex;
         justify-content: space-between;
