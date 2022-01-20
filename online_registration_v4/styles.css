@@ -100,10 +100,6 @@ option[class="instruction"] {
     font-size: .75em;
 }
 
-::placeholder {
-    opacity: 75%;
-    font-size: .75em;
-}
 input[id="name"]::placeholder ,
 input[id="email"]::placeholder {
     text-align: right;
@@ -194,17 +190,15 @@ label[class="newsletter-format"] {
         padding-top: 45px;
     }
     
-    .same-line {
+    .same-line ,
+    .same-line-exception {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     .same-line-exception {
-        display: flex;
-        justify-content: space-between;
         width: 322px;
-        align-items: center;
     }
 
     div > label {
@@ -213,10 +207,7 @@ label[class="newsletter-format"] {
     }
 
     input[type="text"] ,
-    input[type="tel"] {
-        width: 508px;
-    }
-
+    input[type="tel"] ,
     select {
         width: 508px;
     }
