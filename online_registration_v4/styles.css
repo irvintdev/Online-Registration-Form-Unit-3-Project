@@ -110,6 +110,7 @@ input[id="email"]::placeholder {
 
 input[type="text"] ,
 input[type="tel"] ,
+input[type="email"] ,
 textarea ,
 select {
     border: none;
@@ -121,12 +122,13 @@ select {
 }
 
 input[id="zip"] {
-    max-width: 140px;
+    width: 50%;
 }
 
 
 input[type="text"] ,
 input[type="tel"] ,
+input[type="email"] ,
 select {
     height: 50px;
     padding-top: 0px;
@@ -198,7 +200,7 @@ label[class="newsletter-format"] {
     }
 
     .same-line-exception {
-        width: 322px;
+        justify-content: left;
     }
 
     div > label {
@@ -208,8 +210,17 @@ label[class="newsletter-format"] {
 
     input[type="text"] ,
     input[type="tel"] ,
+    input[type="email"] ,
     select {
         width: 508px;
+    }
+
+    label[for="zip"] {
+        margin-right: 121px;
+    }
+
+    input[id="zip"] {
+        width: 25%;
     }
     
 }
